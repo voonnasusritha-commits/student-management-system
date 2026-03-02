@@ -32,23 +32,25 @@ Version Control: Git & GitHub
 📂 Project Structure
 student-management/
 │
-├── env/                      # Virtual Environment (Not uploaded to GitHub)
-├── static/                   # CSS, JS, Images
-├── templates/                # HTML Templates
+├── env/                      
+├── static/                   
+├── templates/                
 │   ├── edit.html
 │   ├── index.html
 │   ├── login.html
 │   ├── register.html
 │   └── view.html
 │
-├── app.py                    # Main Flask Application
-├── requirement.txt           # Dependencies
-├── students.db               # SQLite Database
-├── .gitignore                # Git Ignore File
-└── README.md                 # Project Documentation
+├── app.py                    
+├── requirement.txt           
+├── students.db               
+├── .gitignore                
+└── README.md   
+
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/student-management.git
 cd student-management
+
 2️⃣ Create Virtual Environment (Recommended)
 python -m venv env
 
