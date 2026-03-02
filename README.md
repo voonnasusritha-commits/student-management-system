@@ -46,7 +46,6 @@ student-management/
 ├── students.db               # SQLite Database
 ├── .gitignore                # Git Ignore File
 └── README.md                 # Project Documentation
-⚙️ Installation Guide
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/student-management.git
 cd student-management
