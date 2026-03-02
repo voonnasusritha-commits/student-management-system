@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <h2>Edit student</h2>
+        <form method="POST">
+            <label>Name:</label><br>
+            <input type="text"name="name"value="{{student[0]}}"><br><br>
+            <label>Age:</label><br>
+            <input type="number"name="age"value="{{student[1]}}"><br><br>
+            <label>Course:</label><br>
+            <input type="text"name="course"value="{{student[2]}}"><br><br>
+            <button type="submit">update</button>
+        </form>
+        <br>
+        <a href="/view">Back</a>
+    </body>
+</html>

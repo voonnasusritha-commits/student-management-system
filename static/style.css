@@ -1,0 +1,114 @@
+/* ===== Global Styling ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Page Container ===== */
+.container {
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+/* ===== Heading ===== */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+/* ===== Card Style Form ===== */
+form {
+    background: white;
+    width: 350px;
+    margin: 0 auto 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Input Fields ===== */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    transition: 0.3s ease;
+}
+
+input:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+/* ===== Buttons ===== */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+/* ===== Table Styling ===== */
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+    padding: 15px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+tr:hover {
+    background-color: #f1f9ff;
+}
+
+/* ===== Action Links (Edit/Delete) ===== */
+a {
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+a[href*="edit"] {
+    background-color: #f39c12;
+    color: white;
+}
+
+a[href*="delete"] {
+    background-color: #e74c3c;
+    color: white;
+}
+
+a:hover {
+    opacity: 0.8;
+}
